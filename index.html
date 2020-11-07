@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <body class="body">
+      <div class="overlay hidden">
+        <h1 id="declare_winner"></h1>
+        <button class="close ok">OK</button>
+      </div>
+    <div id="content">
+      <div class = "main_heading">
+        <div class="sub_heading">Player X's Score
+          <p id="playerOneScore">0</p>
+        </div>
+        <p  id="game_title">Tic Tac Toe</p>
+        <div class="sub_heading">Player O's Score
+          <p id="playerTwoScore">0</p>
+        </div>
+      </div>
+      <div id="divider"></div>
+      <div id="game">
+        <div class="game_grid">
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+          <div data-input class="square"></div>
+        </div>
+        <button reset-game id="reset">RESET GAME</button>
+      </div>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
